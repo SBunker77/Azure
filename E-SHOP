@@ -21,7 +21,7 @@
         "vnetName": "SHOP-VNET",
         "vnetAddressPrefix": "10.1.0.0/16",
         "vnetResourceId": "[resourceId('Microsoft.Network/virtualNetworks', variables('vnetName'))]",
-        "webNSGName": "SHOP-NSG",
+        "webNSGName": "SHOP-NSG-1",
         "webNSGResourceId": "[resourceId('Microsoft.Network/networkSecurityGroups', variables('webNSGName'))]",
         "webVMName": "SHOP-VM",
         "webVMNicName": "SHOP-VM-NIC",
